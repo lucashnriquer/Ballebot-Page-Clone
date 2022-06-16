@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  color: #FFF2E7;
+}
+/* Header */
+a{
+  color: #FFF2E7;
+  font-family: 'Sarala', sans-serif;
+  font-size: 18px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 3px;
+}
+.logo{
+  height: 72px;
+}
+nav{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
+  padding: 2% 3%;
+}
+
+/* Body */
+
+/* Main Section */
+
+button{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  background-color: #ECD6C4;
+  width: 11.5rem;
+  height: 3.8rem;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color:#2F2325;
+}
+button:hover{
+  background-color: #9a857c;
+  cursor:pointer;
+}
+h1{
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+}
+h2{
+  font-family: 'Sarala', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ECD6C4;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  border-top: 0.4px solid #FFF2E7;
+}
+.main-section{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-img{
+  padding-bottom: 3%
+}
+
+/* Sub Section */
+
+.sub-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  margin-bottom: 2%;
+}
+h3{
+  font-family: 'Righteous', cursive;
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 2%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+p{
+  font-size: 18px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  color: #ECD6C4;
+
+}
+
+/* Footer */
+
+footer{
+  text-align: center;
+  padding: 1.6%;
+  border-top: 0.4px solid #FFF2E7;
+}
+footer img{
+  width: 241px;
+  height: 48px;
+}
+@media (max-width: 600px){
+  .main-div{
+    text-align: center;
+  }
+  button{
+    align-self: center;
+    width: 130px;
+    height: 60px;
+    font-size: 1.3rem;
+  }
+  p{
+    padding-left: 3%;
+  }
+  h3{
+    text-align: center;
+  }
+  .main-img{
+    width: 50%;
+  }
+  footer img{
+    width: 50%;
+  }
+}
